@@ -1,0 +1,27 @@
+/* [ START ] Main Rules */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #19a1ae;
+	min-height: 100dvh;
+	font-family: 'Kumbh Sans', sans-serif;
+	line-height: 1.24;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./svgs/bg-pattern-top.svg),
+		url(./svgs/bg-pattern-bottom.svg);
+	background-repeat: no-repeat;
+	background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+}
+:root {
+	--dark-navy: #2e3349;
+	--grey: #6b7082;
+	--white: #fff;
+	--line: #e8e9ec;
+}
+/* [ END ] Main Rules */
