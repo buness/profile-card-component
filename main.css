@@ -24,6 +24,11 @@ body {
 	--white: #fff;
 	--line: #e8e9ec;
 }
+.sr__seo {
+	width: 0;
+	overflow: hidden;
+	position: absolute;
+}
 /* [ END ] Main Rules */
 
 /* [ START ] Main Box Style Section */
