@@ -25,3 +25,76 @@ body {
 	--line: #e8e9ec;
 }
 /* [ END ] Main Rules */
+
+/* [ START ] Main Box Style Section */
+main {
+	max-width: 21.875rem;
+	background-color: var(--white);
+	border-radius: 0.9375rem;
+	box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5);
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 1.6875rem;
+}
+@media screen and (max-width: 375px) {
+	main {
+		max-width: 20.313rem;
+	}
+}
+main article header {
+	margin-bottom: 1.2rem;
+}
+main article header img {
+	display: block;
+}
+main article header img:first-of-type {
+	max-width: 100%;
+}
+main article header img:last-of-type {
+	width: 6rem;
+	border-radius: 50%;
+	aspect-ratio: 1;
+	border: 5px solid #ffffff;
+	position: relative;
+	box-sizing: content-box;
+	z-index: 2;
+	margin: -3.3rem auto 0;
+}
+main article h2 {
+	color: var(--dark-navy);
+	font-size: 1.125rem;
+	font-weight: 700;
+	margin-bottom: 0.7222222em;
+}
+main article h2 span {
+	color: var(--grey);
+	font-weight: 400;
+	margin-left: 0.53125em;
+}
+main article p {
+	color: var(--grey);
+	font-size: 0.875rem;
+}
+main footer {
+	margin-top: 1.688rem;
+	padding-top: 1.438rem;
+	border-top: 0.0625rem solid var(--line);
+}
+main article footer ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	column-gap: 2.875rem;
+}
+main article footer ul li h3 {
+	color: var(--dark-navy);
+	font-size: 1.125rem;
+	font-weight: 700;
+}
+main article footer ul li span {
+	color: var(--grey);
+	font-size: 0.625rem;
+	font-weight: 400;
+	letter-spacing: 0.15em;
+}
+/* [ END ] Main Box Style Section */
